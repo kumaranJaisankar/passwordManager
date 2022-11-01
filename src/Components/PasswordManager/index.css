@@ -1,0 +1,109 @@
+.container {
+  background-color: #9ba9eb;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 25px;
+}
+.logo-size {
+  width: 200px;
+}
+.card-container {
+  background-color: #5763a5;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 10px;
+  min-height: 50vh;
+}
+.img-size {
+  width: 300px;
+}
+.heading {
+  color: white;
+  font-size: 26px;
+  font-weight: lighter;
+  text-align: left;
+}
+.form {
+  background-color: #454f84;
+  border-radius: 18px;
+  padding: 20px;
+  text-align: end;
+}
+.logo {
+  width: 30px;
+  border-right: 1px solid gray;
+  padding-right: 4px;
+  margin-right: 10px;
+}
+input {
+  outline: none;
+  border: none;
+  width: 130px;
+}
+.each-input {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+.button {
+  color: white;
+  padding: 5px;
+  background-color: #0b69ff;
+  width: 60px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 15px;
+  text-align: center;
+  cursor: pointer;
+}
+.your-pass {
+  color: white;
+  font-weight: 400;
+}
+.span {
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 5px;
+  width: 30px;
+  color: white;
+}
+.width {
+  width: 160px !important;
+  height: 30px;
+}
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.input {
+  width: 100px;
+}
+.check {
+  height: 25px;
+}
+label {
+  color: white;
+}
+.check-box-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.no-pass-size {
+  width: 400px;
+}
+.no-password {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+ul {
+  padding: 0px;
+  list-style-type: none;
+}
