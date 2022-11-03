@@ -90,7 +90,7 @@ class PasswordManager extends Component {
   render() {
     const {passList, website, username, password, searchUser} = this.state
     const filterPassList = passList.filter(each =>
-      each.password.toLowerCase().includes(searchUser.toLowerCase()),
+      each.website.toLowerCase().includes(searchUser.toLowerCase()),
     )
 
     return (
